@@ -1,0 +1,58 @@
+---
+title: "R_01_0409_HW03"
+author: "劉麗娟"
+date: "2020/4/10"
+output: html_document
+---
+#Q1
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+library(datasets)
+```
+
+```{r}
+summary(mtcars$mpg)       # Categorical variable
+```
+```{r}
+summary(mtcars$cyl)       # Categorical variable
+```
+```{r}
+summary(mtcars$disp)       # Categorical variable
+```
+```{r}
+summary(mtcars$hp)       # Categorical variable
+```
+
+```{r}
+summary(mtcars)
+```
+
+
+#Q2
+
+```{r}
+hist(mtcars$mpg)
+```
+
+
+```{r}
+hist(mtcars$cyl)
+```
+
+
+```{r}
+hist(mtcars$hp)
+```
+
+
+#Q3
+
+```{r}
+plot(mtcars$mpg)
+```
+
+```{r}
+plot(mtcars$hp)
+```
